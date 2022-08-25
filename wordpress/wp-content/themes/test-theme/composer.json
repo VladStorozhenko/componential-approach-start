@@ -1,0 +1,16 @@
+{
+    "name": "builder/scripts",
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "inc/",
+            "builderScripts\\": "builder-scripts/"
+        }
+    },
+    "authors": [
+        {
+            "name": "andrey.morkovin",
+            "email": "andrey.morkovin@boosta.co"
+        }
+    ],
+    "require": {}
+}

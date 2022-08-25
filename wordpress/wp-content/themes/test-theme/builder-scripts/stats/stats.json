@@ -1,0 +1,1132 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "79b15ac34096de75aadc",
+  "time": 2733,
+  "builtAt": 1661460177756,
+  "publicPath": "",
+  "outputPath": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/bundles",
+  "assetsByChunkName": {
+    "main": [
+      "main.css",
+      "main.js",
+      "main.css.map",
+      "main.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "main.css",
+      "size": 63,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "minimized": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "main.css.map",
+      "size": 213,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "main.js",
+      "size": 1340,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "minimized": true,
+        "related": {
+          "license": "main.js.LICENSE.txt"
+        }
+      },
+      "emitted": true
+    },
+    {
+      "name": "main.js.LICENSE.txt",
+      "size": 685,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "main.js.map",
+      "size": 5020,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.css",
+        "main.js",
+        "main.css.map",
+        "main.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.css",
+        "main.js",
+        "main.css.map",
+        "main.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 210,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.css",
+        "main.js",
+        "main.css.map",
+        "main.js.map"
+      ],
+      "hash": "f39b40b97a0866ee77b8",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "multi /entry-points-description/main.js",
+          "name": "multi /entry-points-description/main.js",
+          "index": 0,
+          "index2": 4,
+          "size": 28,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 0,
+            "building": 3
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "multi entry"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "id": "",
+          "identifier": "css|/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss|0",
+          "name": "css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+          "index": 4,
+          "index2": 1,
+          "size": 34,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-0!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+          "issuerId": "../assets/scss/main.scss",
+          "issuerName": "../assets/scss/main.scss",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /entry-points-description/main.js",
+              "name": "multi /entry-points-description/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": "./entry-points-description/main.js",
+              "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+              "name": "./entry-points-description/main.js",
+              "profile": {
+                "factory": 27,
+                "building": 353
+              }
+            },
+            {
+              "id": "../assets/scss/main.scss",
+              "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-0!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "name": "../assets/scss/main.scss",
+              "profile": {
+                "factory": 22,
+                "building": 532
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "../assets/scss/main.scss",
+              "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-0!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "module": "../assets/scss/main.scss",
+              "moduleName": "../assets/scss/main.scss"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "id": "../assets/js/main.js",
+          "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/js/main.js",
+          "name": "../assets/js/main.js",
+          "index": 2,
+          "index2": 0,
+          "size": 30,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+          "issuerId": "./entry-points-description/main.js",
+          "issuerName": "./entry-points-description/main.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /entry-points-description/main.js",
+              "name": "multi /entry-points-description/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": "./entry-points-description/main.js",
+              "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+              "name": "./entry-points-description/main.js",
+              "profile": {
+                "factory": 27,
+                "building": 353
+              }
+            }
+          ],
+          "profile": {
+            "factory": 22,
+            "building": 532
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./entry-points-description/main.js",
+              "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+              "module": "./entry-points-description/main.js",
+              "moduleName": "./entry-points-description/main.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../../assets/js/main",
+              "loc": "1:0-30"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "console.log('Brutal website');"
+        },
+        {
+          "id": "../assets/scss/main.scss",
+          "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-0!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+          "name": "../assets/scss/main.scss",
+          "index": 3,
+          "index2": 2,
+          "size": 50,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+          "issuerId": "./entry-points-description/main.js",
+          "issuerName": "./entry-points-description/main.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /entry-points-description/main.js",
+              "name": "multi /entry-points-description/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": "./entry-points-description/main.js",
+              "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+              "name": "./entry-points-description/main.js",
+              "profile": {
+                "factory": 27,
+                "building": 353
+              }
+            }
+          ],
+          "profile": {
+            "factory": 22,
+            "building": 532
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./entry-points-description/main.js",
+              "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+              "module": "./entry-points-description/main.js",
+              "moduleName": "./entry-points-description/main.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../../assets/scss/main.scss",
+              "loc": "2:0-37"
+            }
+          ],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "// extracted by mini-css-extract-plugin\nexport {};"
+        },
+        {
+          "id": "./entry-points-description/main.js",
+          "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+          "name": "./entry-points-description/main.js",
+          "index": 1,
+          "index2": 3,
+          "size": 68,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "multi /entry-points-description/main.js",
+          "issuerId": 0,
+          "issuerName": "multi /entry-points-description/main.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /entry-points-description/main.js",
+              "name": "multi /entry-points-description/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            }
+          ],
+          "profile": {
+            "factory": 27,
+            "building": 353
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "multi /entry-points-description/main.js",
+              "module": "multi /entry-points-description/main.js",
+              "moduleName": "multi /entry-points-description/main.js",
+              "type": "single entry",
+              "userRequest": "/entry-points-description/main.js",
+              "loc": "main[0]"
+            }
+          ],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "import \"../../assets/js/main\";\nimport \"../../assets/scss/main.scss\";"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": null,
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "multi /entry-points-description/main.js",
+      "name": "multi /entry-points-description/main.js",
+      "index": 0,
+      "index2": 4,
+      "size": 28,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 0,
+        "building": 3
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "multi entry"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "id": "",
+      "identifier": "css|/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss|0",
+      "name": "css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+      "index": 4,
+      "index2": 1,
+      "size": 34,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-0!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+      "issuerId": "../assets/scss/main.scss",
+      "issuerName": "../assets/scss/main.scss",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /entry-points-description/main.js",
+          "name": "multi /entry-points-description/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 3
+          }
+        },
+        {
+          "id": "./entry-points-description/main.js",
+          "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+          "name": "./entry-points-description/main.js",
+          "profile": {
+            "factory": 27,
+            "building": 353
+          }
+        },
+        {
+          "id": "../assets/scss/main.scss",
+          "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-0!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+          "name": "../assets/scss/main.scss",
+          "profile": {
+            "factory": 22,
+            "building": 532
+          }
+        }
+      ],
+      "profile": {
+        "factory": 0,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "../assets/scss/main.scss",
+          "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-0!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+          "module": "../assets/scss/main.scss",
+          "moduleName": "../assets/scss/main.scss"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "id": "../assets/js/main.js",
+      "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/js/main.js",
+      "name": "../assets/js/main.js",
+      "index": 2,
+      "index2": 0,
+      "size": 30,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+      "issuerId": "./entry-points-description/main.js",
+      "issuerName": "./entry-points-description/main.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /entry-points-description/main.js",
+          "name": "multi /entry-points-description/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 3
+          }
+        },
+        {
+          "id": "./entry-points-description/main.js",
+          "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+          "name": "./entry-points-description/main.js",
+          "profile": {
+            "factory": 27,
+            "building": 353
+          }
+        }
+      ],
+      "profile": {
+        "factory": 22,
+        "building": 532
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./entry-points-description/main.js",
+          "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+          "module": "./entry-points-description/main.js",
+          "moduleName": "./entry-points-description/main.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "../../assets/js/main",
+          "loc": "1:0-30"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "console.log('Brutal website');"
+    },
+    {
+      "id": "../assets/scss/main.scss",
+      "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-0!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+      "name": "../assets/scss/main.scss",
+      "index": 3,
+      "index2": 2,
+      "size": 50,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+      "issuerId": "./entry-points-description/main.js",
+      "issuerName": "./entry-points-description/main.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /entry-points-description/main.js",
+          "name": "multi /entry-points-description/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 3
+          }
+        },
+        {
+          "id": "./entry-points-description/main.js",
+          "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+          "name": "./entry-points-description/main.js",
+          "profile": {
+            "factory": 27,
+            "building": 353
+          }
+        }
+      ],
+      "profile": {
+        "factory": 22,
+        "building": 532
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./entry-points-description/main.js",
+          "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+          "module": "./entry-points-description/main.js",
+          "moduleName": "./entry-points-description/main.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "../../assets/scss/main.scss",
+          "loc": "2:0-37"
+        }
+      ],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "// extracted by mini-css-extract-plugin\nexport {};"
+    },
+    {
+      "id": "./entry-points-description/main.js",
+      "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/babel-loader/lib/index.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/builder-scripts/entry-points-description/main.js",
+      "name": "./entry-points-description/main.js",
+      "index": 1,
+      "index2": 3,
+      "size": 68,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "multi /entry-points-description/main.js",
+      "issuerId": 0,
+      "issuerName": "multi /entry-points-description/main.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /entry-points-description/main.js",
+          "name": "multi /entry-points-description/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 3
+          }
+        }
+      ],
+      "profile": {
+        "factory": 27,
+        "building": 353
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "multi /entry-points-description/main.js",
+          "module": "multi /entry-points-description/main.js",
+          "moduleName": "multi /entry-points-description/main.js",
+          "type": "single entry",
+          "userRequest": "/entry-points-description/main.js",
+          "loc": "main[0]"
+        }
+      ],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "import \"../../assets/js/main\";\nimport \"../../assets/scss/main.scss\";"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/wp-content/themes/test-theme/bundles/",
+      "outputPath": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/bundles",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "mini-css-extract-plugin",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 4604,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "fd93cc64e81f488b9a0d",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "name": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "index": 0,
+              "index2": 2,
+              "size": 675,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "mini-css-extract-plugin"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 4,
+                "building": 456
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "// Imports\nimport ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js\";\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-color: pink;\\n}\", \"\",{\"version\":3,\"sources\":[\"webpack://./../assets/scss/main.scss\"],\"names\":[],\"mappings\":\"AAAA;EACE,sBAAA;AACF\",\"sourcesContent\":[\"body {\\n  background-color: pink; // for brutal look\\n}\"],\"sourceRoot\":\"\"}]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
+            },
+            {
+              "id": "../node_modules/css-loader/dist/runtime/api.js",
+              "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/runtime/api.js",
+              "name": "../node_modules/css-loader/dist/runtime/api.js",
+              "index": 2,
+              "index2": 1,
+              "size": 1605,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "mini-css-extract-plugin"
+              ],
+              "issuer": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "issuerId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "issuerName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "issuerPath": [
+                {
+                  "id": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+                  "name": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "profile": {
+                    "factory": 4,
+                    "building": 456
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 3,
+                "building": 16
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+                  "module": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "moduleName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:0-92"
+                },
+                {
+                  "moduleId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+                  "module": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "moduleName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "type": "harmony import specifier",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "4:30-57"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join(\"\");\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === \"string\") {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, \"\"]];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};"
+            },
+            {
+              "id": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "name": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2324,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "mini-css-extract-plugin"
+              ],
+              "issuer": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "issuerId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "issuerName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "issuerPath": [
+                {
+                  "id": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+                  "name": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "profile": {
+                    "factory": 4,
+                    "building": 456
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 3,
+                "building": 16
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+                  "module": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "moduleName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "loc": "2:0-121"
+                },
+                {
+                  "moduleId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+                  "module": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "moduleName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+                  "type": "harmony import specifier",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+                  "loc": "4:58-95"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "\"use strict\";\n\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { var _i = arr && (typeof Symbol !== \"undefined\" && arr[Symbol.iterator] || arr[\"@@iterator\"]); if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\nmodule.exports = function cssWithMappingToString(item) {\n  var _item = _slicedToArray(item, 4),\n      content = _item[1],\n      cssMapping = _item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (typeof btoa === \"function\") {\n    // eslint-disable-next-line no-undef\n    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));\n    var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n    var sourceMapping = \"/*# \".concat(data, \" */\");\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || \"\").concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join(\"\\n\");\n  }\n\n  return [content].join(\"\\n\");\n};"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+          "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+          "name": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+          "index": 0,
+          "index2": 2,
+          "size": 675,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 4,
+            "building": 456
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "loc": "mini-css-extract-plugin"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "// Imports\nimport ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js\";\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-color: pink;\\n}\", \"\",{\"version\":3,\"sources\":[\"webpack://./../assets/scss/main.scss\"],\"names\":[],\"mappings\":\"AAAA;EACE,sBAAA;AACF\",\"sourcesContent\":[\"body {\\n  background-color: pink; // for brutal look\\n}\"],\"sourceRoot\":\"\"}]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
+        },
+        {
+          "id": "../node_modules/css-loader/dist/runtime/api.js",
+          "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/runtime/api.js",
+          "name": "../node_modules/css-loader/dist/runtime/api.js",
+          "index": 2,
+          "index2": 1,
+          "size": 1605,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "issuer": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+          "issuerId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+          "issuerName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+          "issuerPath": [
+            {
+              "id": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "name": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "profile": {
+                "factory": 4,
+                "building": 456
+              }
+            }
+          ],
+          "profile": {
+            "factory": 3,
+            "building": 16
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "module": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "moduleName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:0-92"
+            },
+            {
+              "moduleId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "module": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "moduleName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "type": "harmony import specifier",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "4:30-57"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join(\"\");\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === \"string\") {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, \"\"]];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};"
+        },
+        {
+          "id": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "name": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2324,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "mini-css-extract-plugin"
+          ],
+          "issuer": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+          "issuerId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+          "issuerName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+          "issuerPath": [
+            {
+              "id": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "identifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "name": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "profile": {
+                "factory": 4,
+                "building": 456
+              }
+            }
+          ],
+          "profile": {
+            "factory": 3,
+            "building": 16
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "module": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "moduleName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "loc": "2:0-121"
+            },
+            {
+              "moduleId": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "moduleIdentifier": "/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/css-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/node_modules/sass-loader/dist/cjs.js!/Users/vladislavstorozenko/Documents/Work/personal/wp-tests/wordpress/wp-content/themes/test-theme/assets/scss/main.scss",
+              "module": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "moduleName": "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss",
+              "type": "harmony import specifier",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "loc": "4:58-95"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\n\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { var _i = arr && (typeof Symbol !== \"undefined\" && arr[Symbol.iterator] || arr[\"@@iterator\"]); if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\nmodule.exports = function cssWithMappingToString(item) {\n  var _item = _slicedToArray(item, 4),\n      content = _item[1],\n      cssMapping = _item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (typeof btoa === \"function\") {\n    // eslint-disable-next-line no-undef\n    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));\n    var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n    var sourceMapping = \"/*# \".concat(data, \" */\");\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || \"\").concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join(\"\\n\");\n  }\n\n  return [content].join(\"\\n\");\n};"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../assets/scss/main.scss"
+    }
+  ]
+}
